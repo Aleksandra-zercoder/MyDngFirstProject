@@ -1,12 +1,8 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Страница данных</title>
-</head>
-<body>
-    <h1>Страница данных</h1>
-    <p>Здесь отображается информация о данных.</p>
-    <a href="{% url 'home_view' %}">Вернуться на главную</a> |
-    <a href="{% url 'test_view' %}">Перейти на страницу теста</a>
-</body>
-</html>
+{# data.html #}
+{% extends 'myapp/base.html' %}
+
+{% block title %}Данные — AI в деталях{% endblock %}
+{% block content %}
+  <h1>AI-анализ данных</h1>
+  <p>Создаю модели машинного обучения, которые структурируют и анализируют ваши данные.</p>
+{% endblock %}

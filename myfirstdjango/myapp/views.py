@@ -8,3 +8,6 @@ def data_view(request):
 
 def test_view(request):
     return render(request, 'myapp/test.html')
+
+def about_view(request):
+    return render(request, 'myapp/about.html')

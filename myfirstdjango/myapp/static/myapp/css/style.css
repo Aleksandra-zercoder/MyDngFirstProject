@@ -1,0 +1,29 @@
+/* myapp/static/myapp/css/style.css */
+
+/* Фоновая заливка для всех страниц */
+body {
+  background: #f4f4f9 url("../images/bg-pattern.png") center/cover fixed;
+}
+
+/* «Геро-блок» на главной */
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border-radius: 8px;
+}
+
+/* Картинка пользователя */
+.hero img {
+  max-width: 180px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+/* Немного отступов для контента */
+.container {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
