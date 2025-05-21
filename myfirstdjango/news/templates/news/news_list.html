@@ -1,0 +1,14 @@
+{% extends 'myapp/base.html' %}
+{% block title %}Новости{% endblock %}
+{% block content %}
+  <h1>Последние новости</h1>
+  {% for item in news_list %}
+    <article class="mb-4">
+      <h2><a href="{% url 'news_detail' item.pk %}">{{ item.title }}</a></h2>
+      <p><small>автор {{ item.author }}, {{ item.pub_date|date:"d.m.Y H:i" }}</small></p>
+      <p>{{ item.description }}</p>
+    </article>
+  {% empty %}
+    <p>Пока нет ни одной новости.</p>
+  {% endfor %}
+{% endblock %}

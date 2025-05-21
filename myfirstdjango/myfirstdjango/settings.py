@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'myapp',
+    'news',
 ]
 
 MIDDLEWARE = [
@@ -105,13 +106,14 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/5.2/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'ru'
+TIME_ZONE = 'Europe/Moscow'
+USE_I18N = USE_L10N = USE_TZ = True
+MIDDLEWARE.insert( # сразу после SessionMiddleware
+    MIDDLEWARE.index('django.contrib.sessions.middleware.SessionMiddleware') + 1,
+    'django.middleware.locale.LocaleMiddleware'
+)
 
-TIME_ZONE = 'UTC'
-
-USE_I18N = True
-
-USE_TZ = True
 
 
 # Static files (CSS, JavaScript, Images)
