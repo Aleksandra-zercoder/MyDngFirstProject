@@ -21,5 +21,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('myapp.urls')),  # Подключаем маршруты приложения
     path('news/', include('news.urls')),
+    path('films', include('films.urls')),
 ]
 

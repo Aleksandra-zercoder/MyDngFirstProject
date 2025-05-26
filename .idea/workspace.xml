@@ -4,7 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57c0d8a7-0803-42d1-a198-631f7e7b0879" name="Changes" comment="commit all changes" />
+    <list default="true" id="57c0d8a7-0803-42d1-a198-631f7e7b0879" name="Changes" comment="commit all changes">
+      <change afterPath="$PROJECT_DIR$/myfirstdjango/films/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myfirstdjango/films/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myfirstdjango/films/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myfirstdjango/films/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myfirstdjango/films/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myfirstdjango/films/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myfirstdjango/films/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myfirstdjango/films/templates/films/film_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myfirstdjango/films/templates/films/film_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myfirstdjango/films/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myfirstdjango/films/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myfirstdjango/films/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myfirstdjango/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/myfirstdjango/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myfirstdjango/myapp/templates/myapp/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/myfirstdjango/myapp/templates/myapp/menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myfirstdjango/myfirstdjango/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/myfirstdjango/myfirstdjango/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myfirstdjango/myfirstdjango/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/myfirstdjango/myfirstdjango/urls.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

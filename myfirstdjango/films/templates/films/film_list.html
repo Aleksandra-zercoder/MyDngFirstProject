@@ -1,0 +1,19 @@
+{% extends 'myapp/base.html' %}
+{% block title %}Список фильмов{% endblock %}
+{% block content %}
+  <h1>Список фильмов</h1>
+  {% for film in films %}
+    <div class="card mb-3">
+      <div class="card-body">
+        <h5 class="card-title">{{ film.title }}</h5>
+        <p class="card-text"><strong>Жанр:</strong> {{ film.genre }}</p>
+        <p class="card-text"><strong>Год:</strong> {{ film.year }}</p>
+        <p class="card-text"><strong>Страна:</strong> {{ film.country }}</p>
+        <p class="card-text"><strong>Описание:</strong> {{ film.description }}</p>
+        <p class="card-text"><strong>Отзыв:</strong> {{ film.review }}</p>
+      </div>
+    </div>
+  {% empty %}
+    <p>Пока нет ни одного фильма.</p>
+  {% endfor %}
+{% endblock %}
